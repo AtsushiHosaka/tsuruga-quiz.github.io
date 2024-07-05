@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://tsuruga-kanko.jp/wordpress/wp-content/uploads/2023/01/kehi-pine-park01.jpg.webp);
+  background-size: cover;
+}
+
+.background {
+  background: #ffffffbc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70vw;
+  height: 70vh;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.container h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+select {
+  border: none;
+  width: 60%;
+  height: 60px;
+  font-size: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  width: 60%;
+  height: 50px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  min-height: 50px; /* 最小の高さを設定 */
+  height: auto; /* 高さを自動調整 */
+  white-space: normal; /* 長いテキストを折り返す */
+  word-wrap: break-word; /* 単語の途中でも折り返す */
+  padding: 20px; /* パディングを追加して、テキストが端に接しないようにする */
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.quiz p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.quiz .answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.quiz .answers button:nth-child(1) {
+  background-color: #b183dc;
+}
+
+.quiz .answers button:nth-child(2) {
+  background-color: #df7f7f;
+}
+
+.quiz .answers button:nth-child(3) {
+  background-color: #d5ac72;
+}
+
+.quiz .answers button:nth-child(4) {
+  background-color: #59b4a8;
+}
+
+.quiz button {
+  width: 40%;
+  margin-bottom: 20px;
+  min-height: 50px; /* 最小の高さを設定 */
+  height: auto; /* 高さを自動調整 */
+  white-space: normal; /* 長いテキストを折り返す */
+  word-wrap: break-word; /* 単語の途中でも折り返す */
+  padding: 10px; /* パディングを追加して、テキストが端に接しないようにする */
+}
+
+#result p {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
